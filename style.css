@@ -6,8 +6,8 @@
 .navbar{
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	position: sticky;
+	justify-content: center;
 	cursor: pointer;
 	top: 0;
 
@@ -46,12 +46,12 @@
 
 
 .logo{
-	width: 28%;
+	width: 20%;
 	display: flex;
 }
 
 .logo img{
-	width: 45%;
+	width: 35%;
 	border: 2px solid black;
 	border-radius: 60px;
 }
@@ -69,7 +69,7 @@
 }
 
 .background{
-	background: url(background.jpg);
+	background: url(background.jpg); /*https://www.pexels.com/photo/silver-and-black-laptop-computer-1229861/*/
 	background-size: cover;
 	
 
@@ -112,27 +112,74 @@ height: 70%;
 	font-size: 25px;
 	cursor: pointer;
 	text-shadow: 4px 4px 4px pink;
+	animation: textanimation 4s infinite;
+}
+
+@keyframes textanimation{
+	0%{
+		letter-spacing: 1px;
+      }
+
+    20%{
+    	opacity: 0.2;
+    }  
+
+	40%{
+		color: #00FFFF;
+	}
+
+	60%{
+		opacity: 0.4;
+
+	}
+	80%{
+		letter-spacing: 3px;
+	}
+
+	100%{
+		opacity: 0.6;
+	}
 }
 
 .text2{
-	font-size: 16px;
+	font-size: 19px;
 	cursor: pointer;
 	text-shadow: 4px 4px 4px pink;
+	animation: textanimationA 4s infinite;
 
 }
 
-.text1:hover{
-	color: blue;
+@keyframes textanimationA {
+	0%{
+		letter-spacing: 1px;
+      }
+
+    20%{
+    	opacity: 0.2;
+    }  
+
+	40%{
+		color: #00FFFF;
+	}
+
+	60%{
+		opacity: 0.4;
+
+	}
+	80%{
+		letter-spacing: 3px;
+	}
+
+	100%{
+		opacity: 0.6;
+	}
 }
 
-.text2:hover{
- color: blue;
-}
 
 
 .layout{
 	width: 700px;
-	height:630px;
+	height:590px;
 	border: 2px solid black;
 	margin: 0px auto;
 }
@@ -169,4 +216,168 @@ height: 70%;
 	background-color: pink;
 	margin-top: 3px;
 	margin-bottom: 5px;
+}
+
+.div1{
+	width: 40%;
+	height:300px;
+	background-color: skyblue;
+	display: inline-block;
+	margin-left: 5px;
+
+}
+
+.div2{
+	width: 40%;
+	height: 300px;
+	background-color: yellow;
+	display: inline-block;
+}
+
+.div3{
+	width: 40%;
+	height: 300px;
+	background-color: red;
+	display: inline-block;
+	margin-top:4px;
+	margin-left: 5px;
+}
+
+.div4{
+	width: 40%;
+	height: 300px;
+	background-color: blue;
+	display: inline-block;
+	margin-top: 4px;
+
+}
+
+
+.contactme{
+	text-align: center;
+	text-shadow: 3px 4px 4px;
+	margin-right: 120px;
+	cursor: pointer;
+
+}
+
+.contactme:hover{
+	color: blue;
+}
+.contact{
+	width: 500px;
+	height:450px;
+	border: 1px solid white;
+	margin: 0px auto;
+}
+
+.fname{
+	width:400px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+
+.lname{
+	width:400px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+
+.email{
+	width:400px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+
+.message{
+	width:400px;
+	height:190px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+}
+.btnb{
+	cursor: pointer;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 12px;
+	/*background-color: red;*/
+	padding: 6px;
+
+}
+
+.grid-container > div {
+	/*background-color: blue;*/
+	padding: 10px;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.grid1{
+	height:198px;
+	width:255px;
+	margin-left: 10px;
+	
+}
+
+.grid2{
+	height:198px;
+	width:255px;
+}
+
+.grid3{
+	height:198px;
+	width:255px;
+}
+
+.grid4{
+	height:198px;
+	width:255px;
+	margin-left: 10px;
+}
+
+.grid5{
+	height:198px;
+	width:255px;
+}
+
+.grid6{
+	height:198px;
+	width:255px;
+}
+
+.heading3{
+	text-align: center;
+	cursor: pointer;	
+}
+
+.heading3:hover{
+	color: blue;
+}
+
+.rohan1{
+	height: 90px;
+	width:100px;
+}
+
+.table1{
+	border: 1px solid black;
+}
+
+
+@media only screen and (max-width: 832px){
+	.nav-list{
+		flex-direction: column;
+	}
+	.navbar{
+		flex-direction: column;
+	}
+	.rightnav{
+		text-align: center;
+	}
 }
