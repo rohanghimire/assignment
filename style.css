@@ -10,6 +10,7 @@
 	justify-content: center;
 	cursor: pointer;
 	top: 0;
+	
 
 
 	
@@ -38,6 +39,7 @@
 	color: red;
 	text-shadow: 4px 6px 6px pink;
 
+
 }
 
 .nav-list li a:hover{
@@ -48,14 +50,14 @@
 .logo{
 	width: 20%;
 	display: flex;
-}
+	color: red;
+	margin-left: 18px;
+	margin-top: 6px;
 
-.logo img{
-	width: 35%;
-	border: 2px solid black;
-	border-radius: 60px;
 }
-
+.index:hover{
+	color:blue;
+}
 .rightnav{
      text-align: right;
      width: 50%;
@@ -69,11 +71,13 @@
 }
 
 .background{
-	background: url(background.jpg); /*https://www.pexels.com/photo/silver-and-black-laptop-computer-1229861/*/
+	background: url(background.jpg); /*https://www.pexels.com/photo/silver-and-black-laptop-computer-1229861*/
 	background-size: cover;
 	
 
 }
+
+
 
 .first{
 	height: 100vh;
@@ -84,21 +88,38 @@ display: flex;
 align-items: center;
 justify-content: center;
 color: white;
-max-width: 50%;
+max-width: 60%;
 margin: auto;
 height: 70%;
 
 }
 
+.burger{
+	cursor: pointer;
+	padding-bottom: 4px;
+	display: none;
+
+	
+}
+
+.burger1{
+	width: 20px;
+	height: 5px;
+	margin:2px 2px;
+	background-color: black;
+}
+
 .firstsec{
-	width: 80%;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	
 }
 	
 .secondsec{
  width: 30%;
+ 
 }
 
 .secondsec img{
@@ -106,6 +127,7 @@ height: 70%;
 	height:140px;
 	border-radius: 130px;
 	border:1px solid black;
+	flex-direction: row;
 }
 
 .text1{
@@ -175,45 +197,47 @@ height: 70%;
 	}
 }
 
-
+.copyrightmessage{
+	text-align: center;
+}
 
 .layout{
 	width: 700px;
-	height:590px;
-	border: 2px solid black;
+	height:540px;
+	/*border: 2px solid black;*/
 	margin: 0px auto;
+}
+.body2{
+	background-color: #808080;
 }
 .Resume{
 	border: 1px solid black;
-	background-color: pink;
+	background-color: #808080;
 	margin-top: 3px;
 	margin-bottom: 5px;
+
 }
 
-.career{
+
+
+.pinformation{
 	border: 1px solid black;
-	background-color: pink;
+	background-color:#808080;
 	margin-top: 3px;
 	margin-bottom: 5px;
 }
 
 .qualification{
 	border:1px solid black;
-	background-color: pink;
+	background-color: #808080;
 	margin-top: 3px;
 	margin-bottom: 5px;
 }
 
-.pinformation{
-	border:1px solid black;
-	background-color: pink;
-	margin-top: 3px;
-	margin-bottom: 5px;
-}
 
-.workingexp{
+.skills{
 	border: 1px solid black;
-	background-color: pink;
+	background-color: #808080;
 	margin-top: 3px;
 	margin-bottom: 5px;
 }
@@ -306,13 +330,15 @@ height: 70%;
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 12px;
-	/*background-color: red;*/
 	padding: 6px;
 
 }
 
+.body1{
+	background-color: #808080;
+}
+
 .grid-container > div {
-	/*background-color: blue;*/
 	padding: 10px;
 	font-size: 20px;
 	border: 1px solid black;
@@ -368,16 +394,504 @@ height: 70%;
 .table1{
 	border: 1px solid black;
 }
+.grid-container2{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto;
+	padding: 4px;
+}
+.grid-container2 > div {
+	padding: 10px;
+	font-size: 20px;
+	
 
+}
 
-@media only screen and (max-width: 832px){
+.homepage1{
+	height: 280px;
+	width: 400px;
+}
+.portfoliopage1{
+	height: 280px;
+	width: 400px;
+}
+.cvpage1{
+	height: 280px;
+	width: 400px;
+}
+.contactpage1{
+	height: 280px;
+	width: 400px;
+}
+
+.grid-container3{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto;
+	padding: 4px;
+
+}
+.grid-container2 > div {
+	padding: 10px;
+	font-size: 20px;
+	}
+
+.homevalid1{
+	height: 330px;
+	width: 400px;
+	margin-top: 60px;
+}
+.portfoliovalid1{
+	height: 330px;
+	width: 400px;
+	margin-top: 60px;
+}
+.contactvalid1{
+	height: 330px;
+	width: 400px;
+}
+.cvvalid1{
+	height: 330px;
+	width: 400px;
+}
+.stylesheetvalid1{
+	height: 330px;
+	width: 400px;
+}
+.sitereportvalid1{
+	height: 330px;
+	width: 400px;
+}
+
+.progress1{
+	height: 330px;
+	width: 400px;
+	margin-left: 10px;
+	
+	
+}
+.progress3{
+	height: 330px;
+	width: 400px;
+
+	
+}
+
+.previously{
+	color: black;
+	cursor: pointer;
+	text-shadow: 3px 3px 3px;
+	
+}
+.previously:hover{
+	color: red;
+}
+.finalimage{
+	color: black;
+	cursor: pointer;
+	text-shadow: 3px 3px 3px;
+}
+
+.finalimage:hover{
+	color: red;
+}
+.grid-container4{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns:auto auto;
+	padding: 4px;
+}
+.grid-container2 > div {
+	padding: 10px;
+	}
+.validationcheck{
+	color: black;
+	cursor: pointer;
+	margin-top: 4px;
+	text-shadow: 3px 3px 3px;
+}
+.validationcheck:hover{
+	color: red;
+}
+.description{
+	color: black;
+	text-shadow: 3px 3px 3px;
+	cursor: pointer;
+}
+.description:hover{
+	color: red;
+}
+.describe{
+	font-size: 18px;
+}
+.learningexp{
+	text-shadow: 3px 3px 3px;
+	cursor: pointer;
+}
+.learningexp:hover{
+	color: red;
+}
+.learningexperience{
+	font-size: 18px;
+}
+.refrencing{
+	text-shadow: 3px 3px 3px;
+	cursor: pointer;
+}
+.refrencing:hover{
+   color: red;
+}
+.ref1{
+	color: red;
+	font-size: 18px;
+	margin-top: 8px;
+	margin-bottom: 7px;
+}
+.ref2{
+	color: red;
+	font-size: 18px;
+	margin-bottom: 7px;
+}
+.ref3{
+	color: red;
+	font-size: 18px;
+}
+
+@media all and (max-width: 832px){
 	.nav-list{
 		flex-direction: column;
 	}
 	.navbar{
 		flex-direction: column;
+		height: 400px;
+		transition: all 0.5s ease-out;
 	}
 	.rightnav{
 		text-align: center;
+		flex-direction: column;
 	}
+	.burger{
+		display: block;
+
+
+   }
+   .navbar-resp{
+   	height: 80px;
+   }
+   .rightnav-resp{
+   	opacity: 0;
+   }
+   .ul-resp{
+   	opacity: 0;
+
+   }
+
+   .main{
+   	flex-direction: column-reverse;
+   	max-width: 100%;
+   }
+
+   .secondsec{
+   	margin-right: 40px;
+   }
+
+   .body1{
+   	background-color: #ADD8E6;
+   }
+
+   .contact{
+	width: 190px;
+	height:450px;
+	border: 1px solid white;
+	margin: 0px auto;
+	}
+
+	.contactme{
+		margin-left: 80px;
+	}
+  
+  .fname{
+	width:186px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+	
+}
+
+.lname{
+	width:186px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+	
+}
+
+.email{
+	width:186px;
+	height:30px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+	
+}
+
+.message{
+	width:186px;
+	height:190px;
+	border-radius: 6px;
+	margin-bottom: 7px;
+	
+}
+
+  .layout{
+  	width: 190px;
+  	height: 540px;
+  }
+.Resume{
+	border: 2px solid black;
+	background-color: #ADD8E6;
+	margin-top: 3px;
+	margin-bottom: 5px;
+
+}
+
+
+
+.pinformation{
+	border: 2px solid black;
+	background-color:#ADD8E6;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+
+.qualification{
+	border:2px solid black;
+	background-color: #ADD8E6;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+
+
+.skills{
+	border: 2px solid black;
+	background-color: #ADD8E6;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+
+
+.img1{
+	height:128px;
+	width: 160px;
+	
+	
+}
+
+.img2{
+	height:128px;
+	width:160px;
+}
+
+.img3{
+	height:128px;
+	width:160px;
+}
+
+.img4{
+	height:128px;
+	width:160px;
+
+}
+
+.img5{
+	height:128px;
+	width:160px;
+}
+
+.img6{
+	height:128px;
+	width:160px;
+}
+
+.grid-container{
+	display: grid;
+	width: 190px;
+
+	
+}
+.grid-container > div {
+	border: 1px solid black;
+
+	
+}
+
+.grid1{
+	height:130px;
+	width: 163px;
+	grid-row: 1 /1;
+	margin-left: 110px;
+
+	
+	
+}
+
+.grid2{
+	height:130px;
+	width:163px;
+	grid-row: 2 /2;
+	margin-left:110px;
+
+	
+	
+}
+
+.grid3{
+	height:120px;
+	width:163px;
+	grid-row: 3/ 3;
+	margin-left: 110px;
+	
+}
+
+.grid4{
+	height:130px;
+	width:163px;
+	grid-row: 4 / 4;
+	margin-left:  110px;
+	
+	
+}
+
+.grid5{
+	height:130px;
+	width:163px;
+	grid-row: 5 / 5;
+	margin-left: 110px;
+	
+}
+
+.grid6{
+	height:130px;
+	width:163px;
+	grid-row: 6 / 6;
+	margin-left: 110px;
+	
+}
+.heading3{
+	display: none;
+}
+.progress2{
+	grid-row: 2 /2;
+	margin-left: 11px;
+}
+
+.progress1{
+	width: 240px;
+	height: 210px;
+}
+.progress3{
+	width: 240px;
+	height: 210px;
+}
+.grid-container2{
+	display: grid;
+
+}
+.homepagegrid{
+	height: 220px;
+	width: 250px;
+	grid-row: 1 /1;
+}
+.portfoliopagegrid{
+	height: 210px;
+	width: 250px;
+	grid-row: 2 /2;
+
+}
+.contactpagegrid{
+	height: 210px;
+	width: 250px;
+	grid-row:3 /3;  
+}
+.cvpagegrid{
+	height: 210px;
+	width: 250px;
+	grid-row:4 /4;
+}
+.homepage1{
+	width: 240px;
+	height: 190px;
+}
+.portfoliopage1{
+	width: 240px;
+	height: 190px;
+}
+.contactpage1{
+	width: 240px;
+	height: 190px;
+}
+.cvpage1{
+	width: 240px;
+	height: 190px;
+}
+
+.grid-container3{
+	display: grid;
+}
+.homepagevalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 1 /1;
+}
+.portfoliopagevalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 2 /2;
+
+}
+.contactvalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 3 /3;
+}
+.cvpagevalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 4 /4;
+}
+.stylesheetvalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 5 /5;
+}
+.sitereportvalidation{
+	width: 250px;
+	height: 210px;
+	grid-row: 6 /6;
+}
+.homevalid1{
+	width: 240px;
+	height: 190px;
+}
+.portfoliovalid1{
+	width: 240px;
+	height: 190px;
+}
+.contactvalid1{
+	width: 240px;
+	height: 190px;
+}
+.cvvalid1{
+	width: 240px;
+	height: 190px;
+}
+.stylesheetvalid1{
+	width: 240px;
+	height: 190px;
+}
+.sitereportvalid1{
+	width: 240px;
+	height: 190px;
+}
+
+
 }
