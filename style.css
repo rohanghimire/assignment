@@ -290,9 +290,10 @@ height: 70%;
 }
 .contact{
 	width: 500px;
-	height:450px;
-	border: 1px solid white;
+	height:380px;
+	/*border: 1px solid white;*/
 	margin: 0px auto;
+
 }
 
 .fname{
@@ -300,6 +301,8 @@ height: 70%;
 	height:30px;
 	border-radius: 6px;
 	margin-bottom: 7px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	background-color: white;
 }
 
 .lname{
@@ -307,6 +310,8 @@ height: 70%;
 	height:30px;
 	border-radius: 6px;
 	margin-bottom: 7px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	background-color: white;
 }
 
 .email{
@@ -314,6 +319,8 @@ height: 70%;
 	height:30px;
 	border-radius: 6px;
 	margin-bottom: 7px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	background-color: white;
 }
 
 .message{
@@ -321,10 +328,93 @@ height: 70%;
 	height:190px;
 	border-radius: 6px;
 	margin-bottom: 7px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+	background-color: white;
 }
 .btnb{
 	cursor: pointer;
+	color: skyblue;
 }
+.myinfo{
+	background-color: white;
+	height: 131px;
+	width: 670px;
+	text-align: center;
+	margin-left: 240px;
+	box-shadow: 16px 16px 16px 10px rgba(0.6,0,0,0.6);
+}
+.myinformation{
+	background-color: black;
+	font-size: 18px;
+	height: 30px;
+	margin-left: 260px;
+	width: 130px;
+	border-radius: 16px;
+	text-shadow: 1px 3px 4px;
+	box-shadow: 8px  8px 8px rgba(0,0,0,0.6); 
+	color: white;
+
+}
+.myinformation:hover{
+	color: blue;
+	cursor: pointer;
+}
+.myname{
+	font-size: 16px;
+	background-color: black;
+	height: 25px;
+	width: 150px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin-left: 8px;
+}
+.myname:hover{
+	color: blue;
+	cursor: pointer;
+}
+.address{
+	font-size: 16px;
+	background-color: black;
+	height: 25px;
+	width: 190px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin-left: 90px;
+}
+.address:hover{
+	color: blue;
+	cursor: pointer;
+}
+.phoneno{
+	font-size: 16px;
+	background-color: black;
+	height: 25px;
+	width: 190px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin-left: 210px;
+}
+.phoneno:hover{
+	color: blue;
+	cursor: pointer;
+}
+.email1{
+	font-size: 16px;
+	background-color: black;
+	height: 25px;
+	width: 220px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin-left: 340px;
+}
+.email1:hover{
+	color: blue;
+	cursor: pointer;
+	}
 
 .grid-container{
 	display: grid;
@@ -601,9 +691,8 @@ height: 70%;
 
    .contact{
 	width: 190px;
-	height:450px;
-	border: 1px solid white;
-	margin: 0px auto;
+	height:310px;
+    margin: 0px auto;
 	}
 
 	.contactme{
@@ -641,8 +730,78 @@ height: 70%;
 	margin-bottom: 7px;
 	
 }
+.myinfo{
+	width: 190px;
+	height:260px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.myinformation{
+	background-color: black;
+	font-size: 14px;
+	height: 30px;
+	width: 130px;
+	border-radius: 16px;
+	text-shadow: 1px 3px 4px;
+	box-shadow: 8px  8px 8px rgba(0,0,0,0.6); 
+	color: white;
+	margin: 0px auto;
+	margin-top: 2px;
 
-  .layout{
+}
+
+.myname{
+	font-size: 14px;
+	background-color: black;
+	height: 25px;
+	width: 150px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin: 0px auto;
+	margin-top: 11px;
+}
+
+.address{
+	font-size: 14px;
+	background-color: black;
+	height: 25px;
+	width: 170px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin: 0px auto;
+	margin-top: 11px;
+	
+}
+
+.phoneno{
+	font-size: 14px;
+	background-color: black;
+	height: 25px;
+	width: 170px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin: 0px auto;
+	margin-top: 11px;
+	
+}
+
+.email1{
+	font-size: 12px;
+	background-color: black;
+	height: 25px;
+	width: 167px;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	margin: 0px auto;
+	margin-top: 11px;
+}
+
+
+.layout{
   	width: 190px;
   	height: 540px;
   }
