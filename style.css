@@ -30,6 +30,7 @@
 	list-style: none;
 	padding: 26px 28px;
 	text-decoration: none;
+	margin-top: 3px;
 	
 
 }
@@ -38,12 +39,14 @@
 	text-decoration: none;
 	color: red;
 	text-shadow: 4px 6px 6px pink;
-
+	
 
 }
 
 .nav-list li a:hover{
-	color: blue;
+  border: 3px dotted black;
+  color: black;
+  background: #fff;
 }
 
 
@@ -55,9 +58,8 @@
 	margin-top: 6px;
 
 }
-.index:hover{
-	color:blue;
-}
+
+
 .rightnav{
      text-align: right;
      width: 50%;
