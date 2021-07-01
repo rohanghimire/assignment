@@ -1,5 +1,5 @@
 *{
-	margin: 0;
+	margin: 0;    
 	padding: 0;
 }
 
@@ -99,7 +99,7 @@ height: 70%;
 .burger{
 	cursor: pointer;
 	padding-bottom: 4px;
-	display: none;
+	display: none;         /*burger display is none  it is visible only when someone goes to responsive view*/
 
 	
 }
@@ -146,7 +146,7 @@ height: 70%;
 
     20%{
     	opacity: 0.2;
-    }  
+    }                       /*keyframes are used for animation i have added little text animation in home page so i have used keyframe in the code*/
 
 	40%{
 		color: #00FFFF;
@@ -420,7 +420,7 @@ height: 70%;
 
 .grid-container{
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto;  /*used grid column property to make all the images/content inside grid container in column order*/
 	grid-gap: 12px;
 	padding: 6px;
 
@@ -481,7 +481,7 @@ height: 70%;
 }
 
 .heading3:hover{
-	color: blue;
+	color: blue;     
 }
 
 .rohan1{
@@ -655,14 +655,14 @@ height: 70%;
 	font-size: 18px;
 }
 
-@media all and (max-width: 832px){
+@media all and (max-width: 832px){  /*fired media query for responsiveness of my webpage,I have fired media query at 832px so when the screen size is less than 832px the webpage will render differently and when screen size is above 832px it will render differently*/
 	.nav-list{
 		flex-direction: column;
 	}
 	.navbar{
 		flex-direction: column;
 		height: 400px;
-		transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;    /*navigation bar scroll(column order) down when the width is less than 832px*/
 	}
 	.rightnav{
 		text-align: center;
@@ -1004,7 +1004,7 @@ height: 70%;
 .grid-container3{
 	display: grid;
 }
-.homepagevalidation{
+.homepagevalidation{       
 	width: 250px;
 	height: 210px;
 	grid-row: 1 /1;
@@ -1027,7 +1027,7 @@ height: 70%;
 }
 .stylesheetvalidation{
 	width: 250px;
-	height: 210px;
+	height: 210px;           
 	grid-row: 5 /5;
 }
 .sitereportvalidation{
