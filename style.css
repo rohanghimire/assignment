@@ -216,7 +216,7 @@ height: 70%;
 	border: 1px solid black;
 	background-color: #808080;
 	margin-top: 3px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 
 }
 
@@ -226,14 +226,14 @@ height: 70%;
 	border: 1px solid black;
 	background-color:#808080;
 	margin-top: 3px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 .qualification{
 	border:1px solid black;
 	background-color: #808080;
 	margin-top: 3px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 
@@ -241,7 +241,13 @@ height: 70%;
 	border: 1px solid black;
 	background-color: #808080;
 	margin-top: 3px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
+}
+.careerobj{
+	border: 1px solid black;
+	background-color: #808080;
+	margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 .div1{
@@ -574,6 +580,14 @@ height: 70%;
 
 	
 }
+.progress5{
+	height: 330px;
+	width: 400px;
+}
+.progress7{
+	height: 330px;
+	width: 400px;
+}
 
 .previously{
 	color: black;
@@ -651,6 +665,10 @@ height: 70%;
 	margin-bottom: 7px;
 }
 .ref3{
+	color: red;
+	font-size: 18px;
+}
+.ref4{
 	color: red;
 	font-size: 18px;
 }
@@ -845,6 +863,13 @@ height: 70%;
 	margin-bottom: 7px;
 }
 
+.careerobj{
+	border: 2px solid black;
+	background-color: #ADD8E6;
+	margin-top: 3px;
+	margin-bottom: 7px;
+}
+
 
 .img1{
 	height:128px;
@@ -950,6 +975,14 @@ height: 70%;
 	grid-row: 2 /2;
 	margin-left: 11px;
 }
+.progress4{
+	grid-row: 3 /3;
+	margin-left: 11px;
+}
+.progress6{
+	grid-row: 4 /4;
+	margin-left: 11px;
+}
 
 .progress1{
 	width: 240px;
@@ -959,6 +992,15 @@ height: 70%;
 	width: 240px;
 	height: 210px;
 }
+.progress5{
+	width: 240px;
+	height: 210px;
+}
+.progress7{
+	width: 240px;
+	height: 210px;
+}
+
 .grid-container2{
 	display: grid;
 
